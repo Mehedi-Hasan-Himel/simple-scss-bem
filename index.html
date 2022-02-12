@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style/style.css">
-   <title>Document</title>
+   <title>Simple BEM SCSS Webpage</title>
 </head>
+
 <body>
-   
+   <!-- Header Section Start -->
+   <div class="main">
+      <div class="header">
+
+         <!-- Header Logo Start -->
+         <div class="header__logo">
+            <a class="header__logo-link" href="">
+               <img class="header__logo-img" src="img/logo.png" alt="">
+            </a>
+         </div>
+         <!-- Header Logo End -->
+
+         <!-- Header Menu Start -->
+         <div class="header__menu">
+            <ul class="header__menu-box">
+               <li class="header__menu-item">
+                  <a class="header__menu-link" href="">Home</a>
+               </li>
+               <li class="header__menu-item">
+                  <a class="header__menu-link" href="">About</a>
+               </li>
+               <li class="header__menu-item">
+                  <a class="header__menu-link" href="">Services</a>
+               </li>
+               <li class="header__menu-item">
+                  <a class="header__menu-link" href="">Gallery</a>
+               </li>
+               <li class="header__menu-item">
+                  <a class="header__menu-link" href="">Contract</a>
+               </li>
+            </ul>
+         </div>
+         <!-- Header Menu End -->
+
+      </div>
+      <div class="banner">
+         <img class="banner__img" src="img/bannar.jpg" alt="">
+      </div>
+   </div>
+   <!-- Header Section End -->
+
 </body>
+
 </html>

@@ -1,0 +1,31 @@
+/*
+   Common SCSS Start
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+}
+
+.main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*
+   Common SCSS End
+*/

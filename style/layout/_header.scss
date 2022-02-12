@@ -1,0 +1,44 @@
+/*
+   header style code Start
+*/
+@import "color.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: space-between;
+  &__logo {
+    flex-basis: 20%;
+  }
+  &__menu {
+    flex-basis: 75%;
+    &-box {
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+    }
+    &-item {
+      margin-left: 20px;
+    }
+    &-link {
+      transition: 0.3s;
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+}
+
+.banner{
+   margin-bottom: 30px;
+   &__img{
+      border: 3px solid $hover-color;
+      padding: 3px;
+      border-radius: 80px;
+   }
+}
+/*
+   header style code End
+*/
