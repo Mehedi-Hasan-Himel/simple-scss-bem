@@ -1,0 +1,42 @@
+.about {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__content {
+    flex-basis: 70%;
+    .box-title {
+      text-transform: capitalize;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+  }
+  &__menu {
+    flex-basis: 25%;
+    &-box {
+      list-style: none;
+    }
+    &-item {
+      background-image: url(../../img/arrow.png);
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      padding-top: 3px;
+      margin-bottom: 7px;
+      border-bottom: 1px dashed #ddd;
+      background-position: 0 -3;
+      &:last-child{
+         border-bottom: 0;
+      }
+    }
+    &-link{
+       transition: .3s;
+       &:hover{
+          color: $hover-color;
+       }
+    }
+  }
+  &__desc {
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+}
