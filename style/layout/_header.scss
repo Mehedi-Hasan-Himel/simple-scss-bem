@@ -7,8 +7,9 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 20px 0;
+  padding: 20px;
   justify-content: space-between;
+  background-color: #ddd;
   &__logo {
     flex-basis: 20%;
   }
@@ -24,6 +25,8 @@
     }
     &-link {
       transition: 0.3s;
+      font-size: 18px;
+      font-weight: 600;
       &:hover {
         color: $hover-color;
       }
@@ -31,13 +34,12 @@
   }
 }
 
-.banner{
-   margin-bottom: 30px;
-   &__img{
-      border: 3px solid $hover-color;
-      padding: 3px;
-      border-radius: 80px;
-   }
+.banner {
+  margin-bottom: 30px;
+  &__img {
+    border: 3px solid $hover-color;
+    padding: 3px;
+  }
 }
 /*
    header style code End

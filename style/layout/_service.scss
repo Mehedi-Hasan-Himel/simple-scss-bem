@@ -1,0 +1,51 @@
+/*
+   Service Section Start
+*/
+
+@import "color.scss";
+
+.service {
+  &__title {
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+  }
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__single {
+    background-color: $hover-color;
+    padding: 20px;
+    color: #fff;
+    flex-basis: 32%;
+  }
+  &__heading {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  &__desc {
+    line-height: 22px;
+    margin: 10px 0;
+  }
+  &__link {
+    display: inline-block;
+    background-color: $background-color;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 19px;
+    margin-top: 15px;
+   transition: .3s;
+   &:hover{
+      border-radius: 100px;
+   }
+  }
+}
+/*
+   Service Section End
+*/

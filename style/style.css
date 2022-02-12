@@ -41,10 +41,11 @@ img {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 20px 0;
+  padding: 20px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #ddd;
 }
 
 .header__logo {
@@ -74,10 +75,12 @@ img {
 .header__menu-link {
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .header__menu-link:hover {
-  color: green;
+  color: teal;
 }
 
 .banner {
@@ -85,12 +88,71 @@ img {
 }
 
 .banner__img {
-  border: 3px solid green;
+  border: 3px solid teal;
   padding: 3px;
-  border-radius: 80px;
 }
 
 /*
    header style code End
+*/
+/*
+   Service Section Start
+*/
+.service__title {
+  text-align: center;
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.service__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.service__single {
+  background-color: teal;
+  padding: 20px;
+  color: #fff;
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
+}
+
+.service__heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.service__desc {
+  line-height: 22px;
+  margin: 10px 0;
+}
+
+.service__link {
+  display: inline-block;
+  background-color: aqua;
+  padding: 10px 25px;
+  text-transform: capitalize;
+  color: black;
+  font-size: 19px;
+  margin-top: 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.service__link:hover {
+  border-radius: 100px;
+}
+
+/*
+   Service Section End
 */
 /*# sourceMappingURL=style.css.map */
