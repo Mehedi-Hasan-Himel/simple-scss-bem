@@ -25,7 +25,11 @@ a {
 img {
   max-width: 100%;
 }
-
+.box-title {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 /*
    Common SCSS End
 */

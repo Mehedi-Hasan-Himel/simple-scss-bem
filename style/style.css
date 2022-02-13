@@ -26,6 +26,12 @@ img {
   max-width: 100%;
 }
 
+.box-title {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
 /*
    Common SCSS End
 */
@@ -214,4 +220,92 @@ img {
   line-height: 20px;
   margin-bottom: 20px;
 }
+
+/*
+   Contact Style Start
+*/
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact__form {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+.contact__address {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.contact__address-box {
+  list-style: none;
+}
+
+.contact__address-box-list {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.contact__input {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.contact__message {
+  width: 100%;
+  height: 100px;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.contact__submit {
+  background-color: aqua;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  margin-top: 25px;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.map {
+  margin: 30px 0;
+}
+
+.map__iframe {
+  border: 1px solid #ddd;
+  padding: 3px;
+  width: 100%;
+  height: 300px;
+}
+
+.footer {
+  background-color: aqua;
+  padding: 20px;
+}
+
+.footer__text {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+/*
+   Contact Style End
+*/
 /*# sourceMappingURL=style.css.map */
